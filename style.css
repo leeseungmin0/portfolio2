@@ -52,7 +52,7 @@ ul{
 ul>li{
     display: inline-block;
     vertical-align: top;
-    width: 33.3%;
+    width: 25%;
 }
 
 ul>li>a{
