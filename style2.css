@@ -15,7 +15,7 @@
     position: absolute;
     width: 100%;
     height: 3px;
-    background-color: coral;
+    background-color: rgb(171, 231, 255);
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
@@ -89,7 +89,7 @@ label:hover{
 }
 
 .gallery__cards{
-    width: 90%;
+    width: 95%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -151,6 +151,17 @@ label:hover{
     opacity: 1;
 }
 
+@media screen and (min-width:1500px){
+    .gallery__cards{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-gap: 20px;
+    }
+}
+    
+
 #photo__all:checked ~.container .gallery__cards .calendar{
     opacity: 1;
     transform: scale(1);
@@ -171,7 +182,7 @@ label:hover{
 #jan:checked ~.container .gallery__cards .june_6,
 #jan:checked ~.container .gallery__cards .july_7,
 #jan:checked ~.container .gallery__cards .aug_8,
-#jan:checked ~.container .gallery__cards .fsept_9,
+#jan:checked ~.container .gallery__cards .sept_9,
 #jan:checked ~.container .gallery__cards .oct_10,
 #jan:checked ~.container .gallery__cards .nov_11,
 #jan:checked ~.container .gallery__cards .dec_12{
@@ -196,7 +207,7 @@ label:hover{
 #feb:checked ~.container .gallery__cards .june_6,
 #feb:checked ~.container .gallery__cards .july_7,
 #feb:checked ~.container .gallery__cards .aug_8,
-#feb:checked ~.container .gallery__cards .fsept_9,
+#feb:checked ~.container .gallery__cards .sept_9,
 #feb:checked ~.container .gallery__cards .oct_10,
 #feb:checked ~.container .gallery__cards .nov_11,
 #feb:checked ~.container .gallery__cards .dec_12{
@@ -220,7 +231,7 @@ label:hover{
 #mar:checked ~.container .gallery__cards .june_6,
 #mar:checked ~.container .gallery__cards .july_7,
 #mar:checked ~.container .gallery__cards .aug_8,
-#mar:checked ~.container .gallery__cards .fsept_9,
+#mar:checked ~.container .gallery__cards .sept_9,
 #mar:checked ~.container .gallery__cards .oct_10,
 #mar:checked ~.container .gallery__cards .nov_11,
 #mar:checked ~.container .gallery__cards .dec_12{
@@ -244,7 +255,7 @@ label:hover{
 #apr:checked ~.container .gallery__cards .june_6,
 #apr:checked ~.container .gallery__cards .july_7,
 #apr:checked ~.container .gallery__cards .aug_8,
-#apr:checked ~.container .gallery__cards .fsept_9,
+#apr:checked ~.container .gallery__cards .sept_9,
 #apr:checked ~.container .gallery__cards .oct_10,
 #apr:checked ~.container .gallery__cards .nov_11,
 #apr:checked ~.container .gallery__cards .dec_12{
@@ -268,7 +279,7 @@ label:hover{
 #may:checked ~.container .gallery__cards .june_6,
 #may:checked ~.container .gallery__cards .july_7,
 #may:checked ~.container .gallery__cards .aug_8,
-#may:checked ~.container .gallery__cards .fsept_9,
+#may:checked ~.container .gallery__cards .sept_9,
 #may:checked ~.container .gallery__cards .oct_10,
 #may:checked ~.container .gallery__cards .nov_11,
 #may:checked ~.container .gallery__cards .dec_12{
@@ -291,7 +302,7 @@ label:hover{
 #june:checked ~.container .gallery__cards .may_5,
 #june:checked ~.container .gallery__cards .july_7,
 #june:checked ~.container .gallery__cards .aug_8,
-#june:checked ~.container .gallery__cards .fsept_9,
+#june:checked ~.container .gallery__cards .sept_9,
 #june:checked ~.container .gallery__cards .oct_10,
 #june:checked ~.container .gallery__cards .nov_11,
 #june:checked ~.container .gallery__cards .dec_12{
@@ -314,7 +325,7 @@ label:hover{
 #july:checked ~.container .gallery__cards .may_5,
 #july:checked ~.container .gallery__cards .june_6,
 #july:checked ~.container .gallery__cards .aug_8,
-#july:checked ~.container .gallery__cards .fsept_9,
+#july:checked ~.container .gallery__cards .sept_9,
 #july:checked ~.container .gallery__cards .oct_10,
 #july:checked ~.container .gallery__cards .nov_11,
 #july:checked ~.container .gallery__cards .dec_12{
@@ -337,7 +348,7 @@ label:hover{
 #aug:checked ~.container .gallery__cards .may_5,
 #aug:checked ~.container .gallery__cards .june_6,
 #aug:checked ~.container .gallery__cards .july_7,
-#aug:checked ~.container .gallery__cards .fsept_9,
+#aug:checked ~.container .gallery__cards .sept_9,
 #aug:checked ~.container .gallery__cards .oct_10,
 #aug:checked ~.container .gallery__cards .nov_11,
 #aug:checked ~.container .gallery__cards .dec_12{
@@ -347,7 +358,7 @@ label:hover{
     transition: 0s;
 }
 
-#sept:checked ~.container .gallery__cards .fsept_9{
+#sept:checked ~.container .gallery__cards .sept_9{
     transform: scale(1);
     opacity: 1;
     position: relative;
@@ -384,7 +395,7 @@ label:hover{
 #oct:checked ~.container .gallery__cards .june_6,
 #oct:checked ~.container .gallery__cards .july_7,
 #oct:checked ~.container .gallery__cards .aug_8,
-#oct:checked ~.container .gallery__cards .fsept_9,
+#oct:checked ~.container .gallery__cards .sept_9,
 #oct:checked ~.container .gallery__cards .nov_11,
 #oct:checked ~.container .gallery__cards .dec_12{
     opacity: 0;
@@ -407,7 +418,7 @@ label:hover{
 #nov:checked ~.container .gallery__cards .june_6,
 #nov:checked ~.container .gallery__cards .july_7,
 #nov:checked ~.container .gallery__cards .aug_8,
-#nov:checked ~.container .gallery__cards .fsept_9,
+#nov:checked ~.container .gallery__cards .sept_9,
 #nov:checked ~.container .gallery__cards .oct_10,
 #nov:checked ~.container .gallery__cards .dec_12{
     opacity: 0;
@@ -430,7 +441,7 @@ label:hover{
 #dec:checked ~.container .gallery__cards .june_6,
 #dec:checked ~.container .gallery__cards .july_7,
 #dec:checked ~.container .gallery__cards .aug_8,
-#dec:checked ~.container .gallery__cards .fsept_9,
+#dec:checked ~.container .gallery__cards .sept_9,
 #dec:checked ~.container .gallery__cards .oct_10,
 #dec:checked ~.container .gallery__cards .nov_11{
     opacity: 0;
