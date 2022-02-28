@@ -6,20 +6,91 @@ a{
     color: black;
 }
 
-h1{
-    font-size: 55px;
+
+
+.main__title{
     text-align: center;
+    font-size: 55px;
+    position: relative;
+    margin: 40px 0;
 }
 
+.main__title::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: coral;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 3s linear infinite;
+}
 
+@keyframes animate {
+    0%{
+        width: 130px;
+    }
+    50%{
+        width: 270px;
+    }
+    100%{
+        width: 130px;
+    }
+}
 
+input{
+    display: none;
+}
+.main__menu{
+    background-color: rgba(214, 211, 211, 0.5);
+    width: 100%;
+    margin: 0 auto 20px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px lightgray;
+}
+
+.main__menu h3{
+    height: 100%;
+    background-color: rgba(195, 194, 194, 0.5);
+    line-height: 60px;
+    padding: 0 50px;
+    color: white;
+}
+
+label{
+    display: inline-block;
+    height: 100%;
+    margin: 0 15px;
+    line-height: 60px;
+    font-size: 17px;
+    color: gray;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+label:hover{
+    color: black;
+}
 
 .gallary__cards{
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    
 }
 
+.gallary__cards .item{
+    box-shadow: 3px 3px 5px lightgray;
+    border-radius: 10px;
+}
+.gallary__cards img {
+    border-radius: 10px;
+    
+}
 
 .country__main{
     position: absolute;
@@ -107,14 +178,16 @@ ul> li > a .item::after{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 0;
     background-color: rgba(0,0,0,.5);
     z-index: 1;
     opacity: 0;
     transition: all .35s;
+    border-radius: 10px;
 }
 
 ul > li > a:hover .item::after{
+    height: 100%;
     opacity: 1;
 }
 
@@ -127,6 +200,21 @@ ul > li > a:hover .city{
     top: 52%;
 }
 
-/* .item img:hover{
-    transform: scale(2)
-} */
+#photo__all:checked ~ .main__menu .gallary__cards .item{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+
+#jan:checked ~ .main__menu .gallary__cards .jan{
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+}
+
+#jan:checked ~ .main__menu .gallary__cards .feb
+#jan:checked ~ .main__menu .gallary__cards .mar{
+    opacity: 0;
+    transform: scale(0);
+    position: relative
+}
