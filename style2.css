@@ -56,10 +56,13 @@ input{
 }
 
 .main__menu h3{
+    width: 100%;
     height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
     background-color: rgba(195, 194, 194, 0.5);
-    line-height: 60px;
-    padding: 0 50px;
+    padding: 0 60px;
     color: white;
 }
 
@@ -67,7 +70,7 @@ input{
 label{
     display: inline-block;
     width: 100%;
-    margin: 0 16px;
+    margin: 0 14px;
     font-size: 17px;
     color: gray;
     cursor: pointer;
@@ -110,7 +113,7 @@ label:hover{
 }
 
 .calendar::before{
-    content: "KOREA/BUSAN";
+    content: "PHOTO GALLELY";
     position: absolute;
     top: 50%;
     left: 50%;
