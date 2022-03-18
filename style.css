@@ -169,48 +169,15 @@ label:hover{
     transition: .5s;
 }
 
-#jan:checked ~.container .gallery__cards .jan_1{
+#spring:checked ~.container .gallery__cards .spring{
     transform: scale(1);
     opacity: 1;
     position: relative;
 }
 
-#jan:checked ~.container .gallery__cards .feb_2,
-#jan:checked ~.container .gallery__cards .mar_3,
-#jan:checked ~.container .gallery__cards .apr_4,
-#jan:checked ~.container .gallery__cards .may_5,
-#jan:checked ~.container .gallery__cards .june_6,
-#jan:checked ~.container .gallery__cards .july_7,
-#jan:checked ~.container .gallery__cards .aug_8,
-#jan:checked ~.container .gallery__cards .sept_9,
-#jan:checked ~.container .gallery__cards .oct_10,
-#jan:checked ~.container .gallery__cards .nov_11,
-#jan:checked ~.container .gallery__cards .dec_12{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: 0s;
-
-}
-
-
-#feb:checked ~.container .gallery__cards .feb_2{
-    transform: scale(1);
-    opacity: 1;
-    position: relative;
-}
-
-#feb:checked ~.container .gallery__cards .jan_1,
-#feb:checked ~.container .gallery__cards .mar_3,
-#feb:checked ~.container .gallery__cards .apr_4,
-#feb:checked ~.container .gallery__cards .may_5,
-#feb:checked ~.container .gallery__cards .june_6,
-#feb:checked ~.container .gallery__cards .july_7,
-#feb:checked ~.container .gallery__cards .aug_8,
-#feb:checked ~.container .gallery__cards .sept_9,
-#feb:checked ~.container .gallery__cards .oct_10,
-#feb:checked ~.container .gallery__cards .nov_11,
-#feb:checked ~.container .gallery__cards .dec_12{
+#spring:checked ~.container .gallery__cards .summer,
+#spring:checked ~.container .gallery__cards .fall,
+#spring:checked ~.container .gallery__cards .winter{
     opacity: 0;
     transform: scale(0);
     position: absolute;
@@ -218,23 +185,15 @@ label:hover{
 }
 
 
-#mar:checked ~.container .gallery__cards .mar_3{
+#summer:checked ~.container .gallery__cards .summer{
     transform: scale(1);
     opacity: 1;
     position: relative;
 }
 
-#mar:checked ~.container .gallery__cards .jan_1,
-#mar:checked ~.container .gallery__cards .feb_2,
-#mar:checked ~.container .gallery__cards .apr_4,
-#mar:checked ~.container .gallery__cards .may_5,
-#mar:checked ~.container .gallery__cards .june_6,
-#mar:checked ~.container .gallery__cards .july_7,
-#mar:checked ~.container .gallery__cards .aug_8,
-#mar:checked ~.container .gallery__cards .sept_9,
-#mar:checked ~.container .gallery__cards .oct_10,
-#mar:checked ~.container .gallery__cards .nov_11,
-#mar:checked ~.container .gallery__cards .dec_12{
+#summer:checked ~.container .gallery__cards .spring,
+#summer:checked ~.container .gallery__cards .fall,
+#summer:checked ~.container .gallery__cards .winter{
     opacity: 0;
     transform: scale(0);
     position: absolute;
@@ -242,23 +201,15 @@ label:hover{
 }
 
 
-#apr:checked ~.container .gallery__cards .apr_4{
+#fall:checked ~.container .gallery__cards .fall{
     transform: scale(1);
     opacity: 1;
     position: relative;
 }
 
-#apr:checked ~.container .gallery__cards .jan_1,
-#apr:checked ~.container .gallery__cards .feb_2,
-#apr:checked ~.container .gallery__cards .mar_3,
-#apr:checked ~.container .gallery__cards .may_5,
-#apr:checked ~.container .gallery__cards .june_6,
-#apr:checked ~.container .gallery__cards .july_7,
-#apr:checked ~.container .gallery__cards .aug_8,
-#apr:checked ~.container .gallery__cards .sept_9,
-#apr:checked ~.container .gallery__cards .oct_10,
-#apr:checked ~.container .gallery__cards .nov_11,
-#apr:checked ~.container .gallery__cards .dec_12{
+#fall:checked ~.container .gallery__cards .spring,
+#fall:checked ~.container .gallery__cards .summer,
+#fall:checked ~.container .gallery__cards .winter{
     opacity: 0;
     transform: scale(0);
     position: absolute;
@@ -266,184 +217,15 @@ label:hover{
 }
 
 
-#may:checked ~.container .gallery__cards .may_5{
+#winter:checked ~.container .gallery__cards .winter{
     transform: scale(1);
     opacity: 1;
     position: relative;
 }
 
-#may:checked ~.container .gallery__cards .jan_1,
-#may:checked ~.container .gallery__cards .feb_2,
-#may:checked ~.container .gallery__cards .mar_3,
-#may:checked ~.container .gallery__cards .apr_4,
-#may:checked ~.container .gallery__cards .june_6,
-#may:checked ~.container .gallery__cards .july_7,
-#may:checked ~.container .gallery__cards .aug_8,
-#may:checked ~.container .gallery__cards .sept_9,
-#may:checked ~.container .gallery__cards .oct_10,
-#may:checked ~.container .gallery__cards .nov_11,
-#may:checked ~.container .gallery__cards .dec_12{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: 0s;
-}
-
-#june:checked ~.container .gallery__cards .june_6{
-    transform: scale(1);
-    opacity: 1;
-    position: relative;
-}
-
-#june:checked ~.container .gallery__cards .jan_1,
-#june:checked ~.container .gallery__cards .feb_2,
-#june:checked ~.container .gallery__cards .mar_3,
-#june:checked ~.container .gallery__cards .apr_4,
-#june:checked ~.container .gallery__cards .may_5,
-#june:checked ~.container .gallery__cards .july_7,
-#june:checked ~.container .gallery__cards .aug_8,
-#june:checked ~.container .gallery__cards .sept_9,
-#june:checked ~.container .gallery__cards .oct_10,
-#june:checked ~.container .gallery__cards .nov_11,
-#june:checked ~.container .gallery__cards .dec_12{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: 0s;
-}
-
-#july:checked ~.container .gallery__cards .july_7{
-    transform: scale(1);
-    opacity: 1;
-    position: relative;
-}
-
-#july:checked ~.container .gallery__cards .jan_1,
-#july:checked ~.container .gallery__cards .feb_2,
-#july:checked ~.container .gallery__cards .mar_3,
-#july:checked ~.container .gallery__cards .apr_4,
-#july:checked ~.container .gallery__cards .may_5,
-#july:checked ~.container .gallery__cards .june_6,
-#july:checked ~.container .gallery__cards .aug_8,
-#july:checked ~.container .gallery__cards .sept_9,
-#july:checked ~.container .gallery__cards .oct_10,
-#july:checked ~.container .gallery__cards .nov_11,
-#july:checked ~.container .gallery__cards .dec_12{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: 0s;
-}
-
-#aug:checked ~.container .gallery__cards .aug_8{
-    transform: scale(1);
-    opacity: 1;
-    position: relative;
-}
-
-#aug:checked ~.container .gallery__cards .jan_1,
-#aug:checked ~.container .gallery__cards .feb_2,
-#aug:checked ~.container .gallery__cards .mar_3,
-#aug:checked ~.container .gallery__cards .apr_4,
-#aug:checked ~.container .gallery__cards .may_5,
-#aug:checked ~.container .gallery__cards .june_6,
-#aug:checked ~.container .gallery__cards .july_7,
-#aug:checked ~.container .gallery__cards .sept_9,
-#aug:checked ~.container .gallery__cards .oct_10,
-#aug:checked ~.container .gallery__cards .nov_11,
-#aug:checked ~.container .gallery__cards .dec_12{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: 0s;
-}
-
-#sept:checked ~.container .gallery__cards .sept_9{
-    transform: scale(1);
-    opacity: 1;
-    position: relative;
-}
-
-#sept:checked ~.container .gallery__cards .jan_1,
-#sept:checked ~.container .gallery__cards .feb_2,
-#sept:checked ~.container .gallery__cards .mar_3,
-#sept:checked ~.container .gallery__cards .apr_4,
-#sept:checked ~.container .gallery__cards .may_5,
-#sept:checked ~.container .gallery__cards .june_6,
-#sept:checked ~.container .gallery__cards .july_7,
-#sept:checked ~.container .gallery__cards .aug_8,
-#sept:checked ~.container .gallery__cards .oct_10,
-#sept:checked ~.container .gallery__cards .nov_11,
-#sept:checked ~.container .gallery__cards .dec_12{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: 0s;
-}
-
-#oct:checked ~.container .gallery__cards .oct_10{
-    transform: scale(1);
-    opacity: 1;
-    position: relative;
-}
-
-#oct:checked ~.container .gallery__cards .jan_1,
-#oct:checked ~.container .gallery__cards .feb_2,
-#oct:checked ~.container .gallery__cards .mar_3,
-#oct:checked ~.container .gallery__cards .apr_4,
-#oct:checked ~.container .gallery__cards .may_5,
-#oct:checked ~.container .gallery__cards .june_6,
-#oct:checked ~.container .gallery__cards .july_7,
-#oct:checked ~.container .gallery__cards .aug_8,
-#oct:checked ~.container .gallery__cards .sept_9,
-#oct:checked ~.container .gallery__cards .nov_11,
-#oct:checked ~.container .gallery__cards .dec_12{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: 0s;
-}
-
-#nov:checked ~.container .gallery__cards .nov_11{
-    transform: scale(1);
-    opacity: 1;
-    position: relative;
-}
-
-#nov:checked ~.container .gallery__cards .jan_1,
-#nov:checked ~.container .gallery__cards .feb_2,
-#nov:checked ~.container .gallery__cards .mar_3,
-#nov:checked ~.container .gallery__cards .apr_4,
-#nov:checked ~.container .gallery__cards .may_5,
-#nov:checked ~.container .gallery__cards .june_6,
-#nov:checked ~.container .gallery__cards .july_7,
-#nov:checked ~.container .gallery__cards .aug_8,
-#nov:checked ~.container .gallery__cards .sept_9,
-#nov:checked ~.container .gallery__cards .oct_10,
-#nov:checked ~.container .gallery__cards .dec_12{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-    transition: 0s;
-}
-
-#dec:checked ~.container .gallery__cards .dec_12{
-    transform: scale(1);
-    opacity: 1;
-    position: relative;
-}
-
-#dec:checked ~.container .gallery__cards .jan_1,
-#dec:checked ~.container .gallery__cards .feb_2,
-#dec:checked ~.container .gallery__cards .mar_3,
-#dec:checked ~.container .gallery__cards .apr_4,
-#dec:checked ~.container .gallery__cards .may_5,
-#dec:checked ~.container .gallery__cards .june_6,
-#dec:checked ~.container .gallery__cards .july_7,
-#dec:checked ~.container .gallery__cards .aug_8,
-#dec:checked ~.container .gallery__cards .sept_9,
-#dec:checked ~.container .gallery__cards .oct_10,
-#dec:checked ~.container .gallery__cards .nov_11{
+#winter:checked ~.container .gallery__cards .spring,
+#winter:checked ~.container .gallery__cards .summer,
+#winter:checked ~.container .gallery__cards .fall{
     opacity: 0;
     transform: scale(0);
     position: absolute;
